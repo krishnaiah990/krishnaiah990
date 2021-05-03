@@ -6,6 +6,10 @@ str(file)
 #UDF
 mystat <- function(x){
   
+
+
+
+krishnaojddj dkcjdsc lkkddn 
     a <- x[!is.na(x)]
     n <- length(a)
     nmiss <- sum(is.na(x))
