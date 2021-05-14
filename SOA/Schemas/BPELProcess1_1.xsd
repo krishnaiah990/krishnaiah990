@@ -12,6 +12,7 @@
         <complexType>
             <sequence>
                 <element name="result" type="string"/>
+                <element name="zDSCdsc"/>
             </sequence>
         </complexType>
     </element>
