@@ -9,6 +9,7 @@
      xmlns:bpel="http://docs.oasis-open.org/wsbpel/2.0/process/executable"
      xmlns:vprop="http://docs.oasis-open.org/wsbpel/2.0/varprop"
           xmlns:vprosdp="http://docs.oasis-open.org/wsbpel/2.0/varpszdrop"
+           xmlns:vproswwsdp="http://docs.oasis-open.org/wsbpel/2.0/varpszdrop"
 
     >
     <plnk:partnerLinkType name="BPELProcess1">
