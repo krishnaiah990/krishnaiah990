@@ -13,6 +13,7 @@
             <sequence>
                 <element name="result" type="string"/>
                 <element name="zDSCdsc"/>
+                <element name="element1"/>
             </sequence>
         </complexType>
     </element>
