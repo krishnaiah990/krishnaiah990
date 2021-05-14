@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Faults>
+   <Fault>
+      <severity>warning</severity>
+      <loc>/ns:composite/ns:reference[@name='SOAPReference']</loc>
+      <line>37</line>
+      <col>79</col>
+      <file>C:\JDeveloper\mywork\SOA_TST\CALLING_ASY\SOA\composite.xml</file>
+      <name>C:\JDeveloper\mywork\SOA_TST\CALLING_ASY\SOA\composite.xml</name>
+      <fix/>
+      <msg>Failed to Find Binding "SOAPReference":"null" in WSDL Manager</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc>/ns:composite/ns:reference[@name='SOAPReference']</loc>
+      <line>37</line>
+      <col>79</col>
+      <file>C:\JDeveloper\mywork\SOA_TST\CALLING_ASY\SOA\composite.xml</file>
+      <name>C:\JDeveloper\mywork\SOA_TST\CALLING_ASY\SOA\composite.xml</name>
+      <fix/>
+      <msg>Failed to Find Binding "SOAPReference":"null" in WSDL Manager</msg>
+   </Fault>
+</Faults>

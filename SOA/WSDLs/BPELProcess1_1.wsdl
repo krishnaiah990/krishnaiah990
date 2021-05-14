@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions
+     name="BPELProcess1"
+     targetNamespace="http://xmlns.oracle.com/SOA_TST/TST/BPELProcess1"
+     xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+     xmlns:client="http://xmlns.oracle.com/SOA_TST/TST/BPELProcess1"
+     xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype"
+     xmlns:cor="http://xmlns.oracle.com/SOA_TST/TST/BPELProcess1/correlationset"
+     xmlns:bpel="http://docs.oasis-open.org/wsbpel/2.0/process/executable"
+     xmlns:vprop="http://docs.oasis-open.org/wsbpel/2.0/varprop"
+    >
+    <plnk:partnerLinkType name="BPELProcess1">
+        <plnk:role name="BPELProcess1Provider" portType="client:BPELProcess1"/>
+        <plnk:role name="BPELProcess1Requester" portType="client:BPELProcess1Callback"/>
+    </plnk:partnerLinkType>
+    <vprop:propertyAlias propertyName="cor:Property1" xmlns:client="http://xmlns.oracle.com/SOA_TST/TST/BPELProcess1"
+         element="client:process"/>
+    <wsdl:import namespace="http://xmlns.oracle.com/SOA_TST/TST/BPELProcess1/correlationset" location="BPELProcess1_properties.wsdl"/>
+    <wsdl:types>
+        <schema xmlns="http://www.w3.org/2001/XMLSchema">
+            <import namespace="http://xmlns.oracle.com/SOA_TST/TST/BPELProcess1" schemaLocation="../Schemas/BPELProcess1_1.xsd"/>
+        </schema>
+    </wsdl:types>
+    <wsdl:message name="BPELProcess1RequestMessage">
+        <wsdl:part name="payload" element="client:process"/>
+    </wsdl:message>
+    <wsdl:message name="BPELProcess1ResponseMessage">
+        <wsdl:part name="payload" element="client:processResponse"/>
+    </wsdl:message>
+    <wsdl:portType name="BPELProcess1">
+        <wsdl:operation name="process">
+            <wsdl:input message="client:BPELProcess1RequestMessage"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:portType name="BPELProcess1Callback">
+        <wsdl:operation name="processResponse">
+            <wsdl:input message="client:BPELProcess1ResponseMessage"/>
+        </wsdl:operation>
+    </wsdl:portType>
+</wsdl:definitions>
