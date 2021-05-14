@@ -9,4 +9,5 @@
      xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
     >
     <vprop:property name="Property1" type="xsd:anyURI"/>
+    <wsdl:portType name="xasd"/>
 </wsdl:definitions>
