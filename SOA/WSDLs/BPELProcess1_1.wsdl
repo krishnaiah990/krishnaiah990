@@ -10,7 +10,8 @@
      xmlns:vprop="http://docs.oasis-open.org/wsbpel/2.0/varprop"
           xmlns:vprosdp="http://docs.oasis-open.org/wsbpel/2.0/varpszdrop"
            xmlns:vproswwsdp="http://docs.oasis-open.org/wsbpel/2.0/varpszdrop"
-
+           
+ xmlns:vprofhgswwsdp="http://docs.oasis-open.org/wsbpel/2.0/varpszdrop"
     >
     <plnk:partnerLinkType name="BPELProcess1">
         <plnk:role name="BPELProcess1Provider" portType="client:BPELProcess1"/>
