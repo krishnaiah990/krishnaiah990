@@ -7,7 +7,9 @@
      xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype"
      xmlns:bpel="http://docs.oasis-open.org/wsbpel/2.0/process/executable"
      xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+     xmlns:xs="http://java.sun.com/xml/ns/jaxws"
     >
     <vprop:property name="Property1" type="xsd:anyURI"/>
     <wsdl:portType name="xasd"/>
+    <xs:element name="krishna" type="string">
 </wsdl:definitions>
