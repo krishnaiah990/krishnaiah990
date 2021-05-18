@@ -6,7 +6,7 @@
 	<element name="process">
 		<complexType>
 			<sequence>
-				<element name="input" type="string"/>
+				<element name="isffnput" type="string"/>
 			</sequence>
 		</complexType>
 	</element>
