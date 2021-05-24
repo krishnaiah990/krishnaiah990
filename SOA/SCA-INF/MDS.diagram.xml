@@ -8,7 +8,7 @@
         <dgm:shadow arcRad="20" X="11" Y="34" width="156" height="98">
             <dgm:bgColor r="196" g="228" b="240"/>
         </dgm:shadow>
-        <dgm:outputPort name="bpelprocess1_client_ep" X="127" Y="0" diameter="20" imageURI="oracle/tip/tools/ide/fabric/resource/image/visuals_rd1/servicereference.png" interface="http://xmlns.oracle.com/SOA_TST/MDS/BPELProcess1#wsdl.interface(BPELProcess1)"/>
+        <dgm:outputPort name="KRISHNAIAJHASXKASNCX CXSANMX" X="127" Y="0" diameter="20" imageURI="oracle/tip/tools/ide/fabric/resource/image/visuals_rd1/servicereference.png" interface="http://xmlns.oracle.com/SOA_TST/MDS/BPELProcess1#wsdl.interface(BPELProcess1)"/>
         <dgm:nodeIcon URI="/oracle/tip/tools/ide/adapters/designtime/adapter/images/soap_service_20x20.png" X="20" Y="4" width="20" height="20"/>
         <dgm:operations>
             <dgm:item>process</dgm:item>
