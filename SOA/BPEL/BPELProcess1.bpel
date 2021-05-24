@@ -31,7 +31,7 @@
     -->
     <variables>
         <!-- Reference to the message passed as input during initiation -->
-        <variable name="inputVariable0" element="ns2:lPGIDAuthenticationResponseTypeV2"/>
+        <variable name="inputVariable0" element="ns2:lPGIDAuthenticationRespdfnfdsnonseTypeV2"/>
 
     </variables>
 
